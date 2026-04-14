@@ -56,11 +56,16 @@ The project is structured to separate responsibilities clearly:
 
 ```bash
 git clone https://github.com/ramyasada/Automation_Testing_on_opencart.git
+```
+```bash
 cd Automation_Testing_on_opencart
+```
+```bash
 mvn clean test
+```
 Or run testng.xml as a TestNG suite from your IDE
 
-📊 Reports
+## 📊 Reports
 
 Reports are generated in the test-output folder
 Screenshots are captured for failed test cases
