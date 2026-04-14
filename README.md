@@ -1,16 +1,16 @@
-# 🧪 OpenCart Automation Framework
+#  OpenCart Automation Framework
 
 This project is a robust test automation framework developed to validate the core functionalities of an OpenCart-based e-commerce application. It is built using Java, Selenium WebDriver, and TestNG, following industry best practices like the Page Object Model (POM).
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The framework automates key user workflows of an e-commerce system, ensuring reliability and consistency. It is designed in a modular way so that new test cases can be added easily.
 
 ---
 
-## 🧱 Framework Design
+##  Framework Design
 
 The project is structured to separate responsibilities clearly:
 
