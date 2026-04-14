@@ -52,24 +52,18 @@ The project is structured to separate responsibilities clearly:
 
 ## ▶️ Execution Steps
 
-1. Clone the repository:
+1. Clone and run the project:
+
 ```bash
 git clone https://github.com/ramyasada/Automation_Testing_on_opencart.git
-
-Navigate to the project folder:
 cd Automation_Testing_on_opencart
-Run tests:
 mvn clean test
 Or run testng.xml as a TestNG suite from your IDE
+
 📊 Reports
+
 Reports are generated in the test-output folder
 Screenshots are captured for failed test cases
-🚀 Future Enhancements
-CI/CD integration (Jenkins)
-Advanced reporting (Extent Reports)
-Data-driven testing
-Cross-browser execution
-👩‍💻 Author
 
-Ramya Sada
+## Ramya Sada
 Final Year Computer Science Student
