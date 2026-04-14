@@ -1,62 +1,75 @@
-OpenCart Automation Framework
+# 🧪 OpenCart Automation Framework
 
-This project is a robust test automation framework developed to validate the core functionalities of an OpenCart-based e-commerce application. It is built using Java, Selenium WebDriver, and TestNG, following industry best practices like the Page Object Model (POM) to ensure clean, maintainable, and scalable test code.
+This project is a robust test automation framework developed to validate the core functionalities of an OpenCart-based e-commerce application. It is built using Java, Selenium WebDriver, and TestNG, following industry best practices like the Page Object Model (POM).
 
-📌 Overview
+---
 
-The framework automates key user workflows of an e-commerce system, helping ensure reliability and consistency across application features. It is designed in a modular way so that new test cases and components can be added with minimal effort.
+## 📌 Overview
 
-🧱 Framework Design
+The framework automates key user workflows of an e-commerce system, ensuring reliability and consistency. It is designed in a modular way so that new test cases can be added easily.
+
+---
+
+## 🧱 Framework Design
 
 The project is structured to separate responsibilities clearly:
 
-Page Layer → Contains web element locators and page-specific actions
-Test Layer → Includes test scenarios and validations
-Utilities → Common reusable methods (if implemented)
-Configuration Files → Managed through Maven and TestNG
-⚙️ Key Functionalities Covered
+- **Page Layer** → Contains web element locators and page-specific actions  
+- **Test Layer** → Includes test scenarios and validations  
+- **Utilities** → Common reusable methods  
+- **Configuration Files** → Managed through Maven and TestNG  
 
-The automation suite includes validation of major user journeys such as:
+---
 
-Account Registration
-User Login & Logout
-Product Search Functionality
-Adding Products to Cart
-Checkout Workflow
-✨ Highlights
-✔️ Implements Page Object Model (POM) for better code organization
-✔️ Uses TestNG for test execution and management
-✔️ Integrated with Maven for dependency handling
-✔️ Supports failure analysis using screenshots
-✔️ Easy to scale and extend with additional test cases
-✔️ Clean and readable code structure
-🛠️ Technology Stack
-Component	Technology Used
-Programming	Java
-Automation Tool	Selenium WebDriver
-Test Framework	TestNG
-Build Tool	Maven
-▶️ Execution Steps
+## ⚙️ Key Functionalities Covered
 
-To run this project locally:
+- Account Registration  
+- User Login & Logout  
+- Product Search  
+- Add to Cart  
+- Checkout Workflow  
 
-Clone the repository:
+---
+
+## ✨ Highlights
+
+- ✔️ Page Object Model (POM) implementation  
+- ✔️ TestNG for execution and management  
+- ✔️ Maven for dependency handling  
+- ✔️ Screenshot capture on failure  
+- ✔️ Scalable and maintainable framework  
+
+---
+
+## 🛠️ Technology Stack
+
+- **Programming Language:** Java  
+- **Automation Tool:** Selenium WebDriver  
+- **Test Framework:** TestNG  
+- **Build Tool:** Maven  
+
+---
+
+## ▶️ Execution Steps
+
+1. Clone the repository:
+```bash
 git clone https://github.com/ramyasada/Automation_Testing_on_opencart.git
-Open the project in your preferred IDE (Eclipse/IntelliJ)
-Execute tests using:
+
+Navigate to the project folder:
+cd Automation_Testing_on_opencart
+Run tests:
 mvn clean test
-Alternatively, run the testng.xml file directly as a TestNG suite
-📈 Test Reports
-Default TestNG reports are generated after execution
-Reports can be found in the test-output directory
-Screenshots are captured for failed scenarios (if configured)
+Or run testng.xml as a TestNG suite from your IDE
+📊 Reports
+Reports are generated in the test-output folder
+Screenshots are captured for failed test cases
 🚀 Future Enhancements
-Integration with CI/CD tools (Jenkins/GitHub Actions)
+CI/CD integration (Jenkins)
 Advanced reporting (Extent Reports)
-Data-driven testing using external files
+Data-driven testing
 Cross-browser execution
 👩‍💻 Author
 
 Ramya Sada
-Computer Science Final Year Student
-Interested in Test Automation, Selenium, and Software Testing
+Final Year Computer Science Student
